@@ -1,8 +1,9 @@
 # MP-Property-property
 Programmed by: Reign Elaiza Larraquel S15
-Last modified: 02/07/2022
-Version: 1
 
+Last modified: 02/07/2022
+
+Version: 1
 
 ## Description
 This is a turn-based two-player board game. Players compete to acquire wealth by buying or renting properties. The game ends when a player goes bankrupt i.e he does not have enough money to pay rent.
