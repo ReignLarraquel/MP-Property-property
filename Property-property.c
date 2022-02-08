@@ -911,7 +911,7 @@ void displayPosition(int nDice, int* nPosition, int* nCash)
 
     if(*nPosition > 9) 
     {
-        *nCash += 2; // adds 200 cash to the player's cash for passing the position 0
+        *nCash += 200; // adds 200 cash to the player's cash for passing the position 0
         *nPosition -=10; //Subtracts 10 to make the player start from 0 again
         nReceived = TRUE;
     }
@@ -1473,7 +1473,7 @@ int main()
     // Initial values for the game
     int nPlayer; 
     int nCash;
-    int nProperties = 444040421;
+    int nProperties = 0;
     int nPosition = 0;
     int nInitialCash = 200;
     int nDice = 0;
